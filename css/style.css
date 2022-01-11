@@ -693,6 +693,13 @@ h2.resp-accordion {
 	height: 100%;
 	display: block;
 	background-color: #ef664d;
+	animation: progress 5s ease-in 1
+}
+@keyframes progress {
+	from {
+		width: 0;
+	}
+
 }
 .footer-section {
 	padding: 40px 0px;
